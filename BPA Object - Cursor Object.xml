@@ -171,7 +171,7 @@ This is an optional page where you might choose to perform some initialisation t
 The initialise action will be called automatically immediately after loading your business object.
 
 You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
-    <displayx>-180</displayx>
+    <displayx>-195</displayx>
     <displayy>60</displayy>
     <displaywidth>180</displaywidth>
     <displayheight>230</displayheight>
@@ -275,14 +275,23 @@ y = myCursor.ptScreenPos.y;]]></code>
   <stage stageid="08f0ce2d-908e-4fdf-a641-ab95d241e9fc" name="Note3" type="Note">
     <subsheetid>f4200f88-9fa7-48cf-acaa-9d1ff4295834</subsheetid>
     <loginhibit />
-    <narrative>X - Y : Obtient la position du curseur.
-HCusor: Obtient le handle du curseur. ==&gt; type de cursor au format numérique du cursor (attention: est différent entre les machine)
-cbSize: Obtient la taille de l'objet curseur.
-Flags: Obtient l'objet qui contient les données relatives au Cursor.</narrative>
+    <narrative>x - y : Mouse coordinates on the screen
+hCursor: Handle to the cursor.
+cbSize: Specifies the size, in bytes, of the structure. 
+flags: Specifies the cursor state.</narrative>
     <displayx>-240</displayx>
     <displayy>45</displayy>
     <displaywidth>180</displaywidth>
     <displayheight>150</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="766fa07e-4303-47e4-a7ee-192cda62297d" name="Note4" type="Note">
+    <loginhibit />
+    <narrative>By Johnatan Georges</narrative>
+    <displayx>180</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
     <font family="Segoe UI" size="10" style="Regular" color="000000" />
   </stage>
 </process>
